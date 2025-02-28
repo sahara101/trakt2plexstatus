@@ -1,3 +1,5 @@
+Script will generate collection and overlay files for Kometa. Collection is used for next airing status ordered by date. 
+
 # Collection on Home
 <img src="https://zipline.rlvd.eu/u/eKH4fr.png">
 
