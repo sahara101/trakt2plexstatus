@@ -20,6 +20,7 @@ LOG_FILE = config['LOG_FILE']
 TRAKT_TOKEN_FILE = config['TRAKT_TOKEN_FILE']
 TRAKT_CLIENT_ID = config['TRAKT_CLIENT_ID']
 TRAKT_CLIENT_SECRET = config['TRAKT_CLIENT_SECRET']
+TRAKT_USERNAME = config['TRAKT_USERNAME']
 REDIRECT_URI = config['REDIRECT_URI']
 PLEX_URL = config['PLEX_URL']
 PLEX_TOKEN = config['PLEX_TOKEN']
@@ -259,7 +260,7 @@ def create_yaml(library_name, headers):
 yaml_template = """
 collections:
   Next Airing {library_name}:
-    trakt_list: https://trakt.tv/users/sahara/lists/next-airing?sort=rank,asc
+    trakt_list: https://trakt.tv/users/{config['TRAKT_USERNAME']}/lists/next-airing?sort=rank,asc
     file_poster: 'config/assets/Next Airing/poster.jpg'
     collection_order: custom
     visible_home: true
@@ -346,4 +347,3 @@ list_slug = get_or_create_trakt_list(list_name, headers)
 if list_slug:
     sorted_airing_shows = sort_airing_shows_by_date(airing_shows)
     update_trakt_list(list_slug, sorted_airing_shows, headers)
-root@pmm:~#
