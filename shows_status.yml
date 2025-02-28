@@ -1,0 +1,31 @@
+# Plex libraries to process
+LIBRARIES:
+  - ""
+  - ""
+
+# Timezone for date calculations
+TZ: "Europe/Bucharest"
+
+# Color definitions with names and hex codes
+COLORS:
+  AIRING: "#006580"           # Dark Cyan - Currently airing shows with next episode date
+  ENDED: "#000000"            # Black - Ended shows
+  CANCELLED: "#FF0000"        # Red - Cancelled shows
+  RETURNING: "#008000"        # Green - Returning series
+  SEASON_FINALE: "#9932CC"    # Dark Orchid - Season finale episodes
+  MID_SEASON_FINALE: "#FFA500" # Orange - Mid-season finale episodes
+  FINAL_EPISODE: "#8B0000"    # Dark Red - Final episode of series
+  SEASON_PREMIERE: "#228B22"  # Forest Green - Season premiere episodes
+
+# File paths and external service configurations
+LOG_FILE: "shows_status.log"
+TRAKT_TOKEN_FILE: "trakt_token.json"
+TRAKT_CLIENT_ID: ""
+TRAKT_CLIENT_SECRET: ""
+REDIRECT_URI: "urn:ietf:wg:oauth:2.0:oob"
+PLEX_URL: ""
+PLEX_TOKEN: ""
+YAML_OUTPUT_DIR: "Kometa/config/overlays/"
+YAML_FILE_TEMPLATE: "{library}_status_overlays.yml"
+FONT_PATH: "config/fonts/Juventus-Fans-Bold.ttf"
+COLLECTIONS_DIR: "Kometa/config/collections/"
