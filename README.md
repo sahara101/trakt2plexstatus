@@ -25,6 +25,9 @@ You can change the colors to your liking.
 <img src="https://zipline.rlvd.eu/u/ZcWejl.png" width="200">
 
 # Usage
+
+Generate a trakt application.
+
 Add necessary data into the config yml. Add the py as a cronjob, for example:
 
 ```2 0 * * * python3 /root/shows_status.py```
