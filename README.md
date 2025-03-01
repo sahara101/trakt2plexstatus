@@ -8,10 +8,10 @@ Existing statuses:
 | `ENDED`                | `#000000`  | Black            | Ended series                                                               |
 | `CANCELLED`            | `#FF0000`  | Red              | Cancelled shows                                                            |
 | `RETURNING`            | `#008000`  | Green            | Returning series waiting for next episode                                 |
-| `SEASON_FINALE`        | `#9932CC`  | Dark Orchid      | Season finale episodes with airing date                                                   |
-| `MID_SEASON_FINALE`    | `#FFA500`  | Orange           | Mid-season finale episodes with airing date                                                |
-| `FINAL_EPISODE`        | `#8B0000`  | Dark Red         | Final episode of a series with airing date                                                |
-| `SEASON_PREMIERE`      | `#228B22`  | Forest Green     | Season premiere episodes with airing date                                                  |
+| `SEASON FINALE`        | `#9932CC`  | Dark Orchid      | Season finale episodes with airing date                                                   |
+| `MID SEASON FINALE`    | `#FFA500`  | Orange           | Mid-season finale episodes with airing date                                                |
+| `FINAL EPISODE`        | `#8B0000`  | Dark Red         | Final episode of a series with airing date                                                |
+| `SEASON PREMIERE`      | `#228B22`  | Forest Green     | Season premiere episodes with airing date                                                  |
 
 You can change the colors to your liking. 
 
